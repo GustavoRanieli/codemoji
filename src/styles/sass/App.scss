@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lora:wght@700&display=swap');
+
+
+@mixin text(){
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+@media  screen and (max-width:1000px) {
+    justify-content: space-between;
+
+}
+
+
+    .div-Tittle{
+        h1{
+            @include text();
+            color: #2F2F2F;
+            font-size: 32px;
+            line-height: normal;
+
+            @media  screen and (max-width:1000px) {
+                font-size: 18px;
+                margin-left: 10%;
+            }
+        }
+    }
+
+    .div-svgs{
+        display: flex;
+        flex-direction: row;
+        @media  screen and (max-width:1000px) {
+            margin-right: 5%;
+        }
+        .button-search{
+            background: #FFF;
+            border-radius: 100px;
+            margin-left: -55%;
+            border: 2px solid #EAEAEA;
+            padding: 1% 5%;
+            cursor: pointer;
+
+            svg{
+                @media  screen and (max-width:1000px) {
+                    width: 14px;
+                    height: auto;
+                }
+            }
+        }
+        .button-login{
+            @include text();
+            margin-left: 5%;
+            border: 2px solid #EAEAEA;
+            background: #FFF;
+            border-radius: 20px;
+            padding: 0% 15%;
+            line-height: normal;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+
+            svg{
+                @media  screen and (max-width:1000px) {
+                    width: 14px;
+                    height: auto;
+                }
+            }
+        }
+    }
+} 

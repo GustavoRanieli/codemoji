@@ -1,0 +1,73 @@
+.div-textbody {
+  text-align: center;
+  margin: 10% 0%;
+  position: relative;
+  z-index: 2;
+}
+.div-textbody p {
+  color: #2F2F2F;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+}
+@media screen and (max-width: 1000px) {
+  .div-textbody p {
+    font-size: 16px;
+  }
+}
+.div-textbody h1 {
+  color: #2F2F2F;
+  font-style: normal;
+  font-weight: 700;
+  font-family: Lora;
+  line-height: 70px;
+  font-size: 64px;
+}
+@media screen and (max-width: 1000px) {
+  .div-textbody h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .div-textbody .divs-buttonsbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.div-textbody .divs-buttonsbody button {
+  margin: 0% 5%;
+  padding: 15px 48px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .div-textbody .divs-buttonsbody button {
+    margin: 2% 0%;
+    width: 80%;
+  }
+}
+.div-textbody .divs-buttonsbody .bt-roxo {
+  background-color: #6610F2;
+  border-radius: 6px;
+  border: transparent;
+  color: #F9F9F9;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.div-textbody .divs-buttonsbody .bt-normal {
+  border-radius: 6px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+  color: #2F2F2F;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=Text.css.map */

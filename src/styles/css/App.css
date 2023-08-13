@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lora:wght@700&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+  header {
+    justify-content: space-between;
+  }
+}
+header .div-Tittle h1 {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  color: #2F2F2F;
+  font-size: 32px;
+  line-height: normal;
+}
+@media screen and (max-width: 1000px) {
+  header .div-Tittle h1 {
+    font-size: 18px;
+    margin-left: 10%;
+  }
+}
+header .div-svgs {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1000px) {
+  header .div-svgs {
+    margin-right: 5%;
+  }
+}
+header .div-svgs .button-search {
+  background: #FFF;
+  border-radius: 100px;
+  margin-left: -55%;
+  border: 2px solid #EAEAEA;
+  padding: 1% 5%;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  header .div-svgs .button-search svg {
+    width: 14px;
+    height: auto;
+  }
+}
+header .div-svgs .button-login {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 5%;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+  border-radius: 20px;
+  padding: 0% 15%;
+  line-height: normal;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  header .div-svgs .button-login svg {
+    width: 14px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

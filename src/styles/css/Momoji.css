@@ -1,0 +1,35 @@
+.div-momojis {
+  position: absolute;
+  left: 20%;
+  top: 18%;
+  z-index: 0;
+}
+
+.killjoy {
+  position: absolute;
+}
+
+.brim {
+  position: absolute;
+  left: 50vw;
+}
+
+.youru {
+  position: absolute;
+  top: 50vh;
+  left: 3vw;
+}
+
+.raze {
+  position: absolute;
+  top: 60vh;
+  left: 25vw;
+}
+
+.reyna {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+}
+
+/*# sourceMappingURL=Momoji.css.map */
