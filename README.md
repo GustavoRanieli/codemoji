@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/GustavoRanieli/codemoji?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/GustavoRanieli/codemoji?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="https://github.com/GustavoRanieli/codemoji/assets/93204660/a380a810-c965-4827-b522-c2866e878d5f" alt="Exemplo imagem">
 
 > Desafio 8 dos teste front-end do Yuri Code <br>
 Desafios: https://github.com/iuricode/desafios-frontend <br>
